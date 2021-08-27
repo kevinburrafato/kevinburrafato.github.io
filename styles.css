@@ -342,6 +342,14 @@ i.fa-github {
         margin-left: 45px;
         }
 
+        #hero h1 {
+            margin-bottom: 190px;
+        }
+        
+        #hero .cta {
+            margin-bottom: 90px;
+        }
+
         #hero .container {
             height: 517px;
         }
