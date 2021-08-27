@@ -315,6 +315,24 @@ i.fa-github {
     .navbar-brand {
         margin-left: 45px;
     }
+
+    #hero h1 {
+        margin-bottom: 300px;
+    }
+    
+    #hero .cta {
+        margin-bottom: 200px;
+    }
+
+    #hero .hero-social {
+        margin-top: 140px;
+    }
+
+    #hero .scroll {
+        margin-top: 250px;
+    }
+
+
 }
 /* End Media Query For Tablet */
 
