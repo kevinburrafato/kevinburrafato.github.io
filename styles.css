@@ -148,7 +148,7 @@ main {
     display: flex;
 	align-items: center;
     position: absolute;
-    margin-top: 330px;
+    margin-top: 460px;
 	justify-content: center;
     text-align: center;
     flex-direction: row;
@@ -175,7 +175,7 @@ i.fa-github {
 
 #hero .scroll {
     position: absolute;
-    margin-top: 450px;
+    margin-top: 590px;
 }
 
 #hero a.scroll {
