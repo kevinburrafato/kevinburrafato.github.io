@@ -328,6 +328,10 @@ i.fa-github {
             height: 517px;
         }
 
+        #hero .hero-social {
+            margin-top: 340px;
+        }
+
         #hero .hero-social a {
            width: 45px;
            height: 45px;
