@@ -113,7 +113,7 @@ main {
 	justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 537px;
+    height: 650px;
 }
 
 #hero h1 {
@@ -267,11 +267,12 @@ i.fa-github {
 #footer {
     text-align: center;
     background-color: rgb(0, 77, 64);
-    height: 255px;
+    height: 300px;
 }
 
 #footer h6{
     color: white;
+    font-size: 20px;
     padding-bottom: 30px;
 }
 
@@ -287,7 +288,22 @@ i.fa-github {
     transition: .3s ease;
     transition-property: background-color, color;
     margin: 5px;
+    width: 50px;
+    height: 50px;
 } 
+
+#footer i.fa-twitter,
+i.fa-pinterest-p {
+    margin-top: 7px;
+    margin-left: 2px;
+    font-size: 25px;
+}
+
+#footer i.fa-linkedin-in,
+i.fa-github {
+    margin-top: 7px;
+    font-size: 25px;
+}
 
 #footer a:hover {
     color: #004D40;
@@ -306,6 +322,10 @@ i.fa-github {
 @media only screen and (min-width: 1200px) {
        .navbar-brand {
         margin-left: 45px;
+        }
+
+        #hero .container {
+            height: 517px;
         }
 
         #hero .hero-social a {
@@ -354,6 +374,10 @@ i.fa-github {
 
         #skill {
             margin-top: 30px;
+        }
+
+        #footer h6{
+            font-size: 18px;
         }
 }
 
