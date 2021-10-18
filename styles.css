@@ -11,7 +11,7 @@ main {
 }
 
 #navbar {
-    background-color: rgb(6, 61, 52);
+    background-color: rgb(0, 77, 64);
 }
 
 #navbar img{
@@ -199,12 +199,6 @@ i.fa-github {
     padding-bottom: 30px;
 }
 
-#about p {
-    color: black;
-    text-align: left;
-    margin-left: 20px;
-}
-
 #about img {
     height: 10rem;
     width: 10rem;
@@ -226,6 +220,10 @@ i.fa-github {
     color: rgb(0, 77, 64);
     text-transform: uppercase;
 }
+
+#about .skill-column .col-md-12 i {
+    color: #0097A7;
+} 
 
 #about .skill-column .col-md-6 i {
     color: #0097A7;
@@ -393,9 +391,6 @@ i.fa-github {
             margin-left: 50px;
             margin-right: 50px;
         }
-        #about p {
-            margin-left: 60px;
-        }
 
         #about .email {
             margin-left: 180px;
@@ -408,6 +403,16 @@ i.fa-github {
 
         #footer h6{
             font-size: 18px;
+        }
+
+        .java-card  {
+            height: 442px;
+            width: 637px;
+        }
+
+        .java-card  img {
+            margin-top: 120px;
+            margin-bottom: 150px;
         }
 }
 
