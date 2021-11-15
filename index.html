@@ -17,17 +17,16 @@
   <header>
     <section id="home">
       <!-- Navbar -->
-      <div id="navbar">
         <nav class="navbar navbar-expand-lg" style="box-shadow: none;">
           <div class="container-fluid">
             <a class="navbar-brand" href="#home">
               <img src="img/brand.png" height="50" />
             </a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <div class="animated-icon1"><span></span><span></span><span></span></div>
             </button>
-            <div id="navbarNav" class="collapse navbar-collapse justify-content-center">
+            <div class="collapse navbar-collapse justify-content-center">
               <ul class="navbar-nav ms-auto me-5">
                 <li class="nav-item">
                   <a class="nav-link" href="#home">Home</a>
@@ -42,9 +41,7 @@
             </div>
           </div>
         </nav>
-      </div>
-      <div id="hero">
-        <div class="hero container">
+        <div class="hero-container">
           <h1>Kevin Burrafato</h1>
           <a class="cta btn btn-outline-light" href="#projects" role="button">My Portfolio</a>
           <div class="hero-social container-fluid">
@@ -69,12 +66,11 @@
             <i class="fas fa-angle-double-down"></i>
           </a>
         </div>
-      </div>
     </section>
   </header>
   <main>
     <section id="about">
-      <div class="about container-fluid">
+      <div class="about-me container-fluid">
         <h3>
           <strong>About Me</strong>
         </h3>
@@ -91,7 +87,7 @@
             <p class="email">kevin.burrafato@gmail.com</p>
           </div>
           <!-- Skill Column-->
-          <div id="skill" class="skill-column col-md-6">
+          <div class="skill-column col-md-6">
             <!-- Soft Skill row-->
             <div class="row">
               <h5 class="mb-4">
@@ -118,7 +114,7 @@
               </div>
             </div>
             <!-- Hard Skill-->
-            <div class="row gx-2" style="align-items: center; justify-content: center">
+            <div class="hard-skill row gx-2" style="align-items: center; justify-content: center">
               <h5 class="mb-3">
                 <strong>Hard Skills</strong>
               </h5>
@@ -138,20 +134,45 @@
               <div class="col-lg-3 col-md-6">
                 <i class="fab fa-php fa-3x m-3"></i>
               </div>
+
+              <div class="col-lg-3 col-md-6">
+                <i class="fab fa-wordpress fa-3x m-3"></i>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <i class="fab fa-node-js fa-3x m-3"></i>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <i class="fab fa-react fa-3x m-3"></i>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="projects">
-      <div class="projects container">
+      <div class="projects-container">
         <h3 class="pt-4 pb-5">
           <strong>Projects</strong>
         </h3>
         <!-- First Row -->
-        <div class="row mb-3">
+        <div class="projects-row mb-3">
           <div class="col-md-6">
-            <div class="card shadow-3-strong mb-3">
+            <div class="card shadow-3-strong">
+              <div class="bg-image hover-overlay ripple mt-3" data-mdb-ripple-color="dark">
+                <img src="img/greensmart.PNG" class="img-fluid" />
+                <a href="https://my-greensmart.herokuapp.com/">
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <a href="https://my-greensmart.herokuapp.com/" class="btn btn-outline shadow-3-strong">GreenSmart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-3-strong">
               <div class="bg-image hover-overlay ripple mt-3" data-mdb-ripple-color="dark">
                 <img src="img/bottega-nani.PNG" class="img-fluid" />
                 <a href="https://bottega-nani.netlify.app/">
@@ -160,48 +181,6 @@
               </div>
               <div class="card-body">
                 <a href="https://bottega-nani.netlify.app/" class="btn btn-outline shadow-3-strong">Bottega Nani</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card shadow-3-strong">
-              <div class="bg-image hover-overlay ripple mt-3" data-mdb-ripple-color="dark">
-                <img src="img/javascript-project.PNG" class="img-fluid" />
-                <a href="https://airquality01.netlify.app/">
-                  <div class="mask"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <a href="https://airquality01.netlify.app/" class="btn btn-outline shadow-3-strong">Air Quality App</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Second Row -->
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card shadow-3-strong mb-3">
-              <div class="bg-image hover-overlay ripple mt-3" data-mdb-ripple-color="dark">
-                <img src="img/php-project.PNG" class="img-fluid" />
-                <a href="https://github.com/kevinburrafato/Recycle-Schedule-App">
-                  <div class="mask"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <a href="https://github.com/kevinburrafato/Recycle-Schedule-App" class="btn btn-outline shadow-3-strong">Recycle Schedule REST Api</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card shadow-3-strong java-card">
-              <div class="bg-image hover-overlay ripple mt-3" data-mdb-ripple-color="dark">
-                <img src="img/settings.gif" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <a href="#!" class="btn btn-outline shadow-3-strong">Coming Soon</a>
               </div>
             </div>
           </div>
